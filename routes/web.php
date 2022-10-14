@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
+
 Route::get('/saludo/{name}', function ($name) {
     return 'Hola Sr.'.$name;
 });
