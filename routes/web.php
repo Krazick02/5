@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/saludo/{name}', function ($name) {
-    return 'Hola Sr.'.$name;
+    return 'Holiwi Sr.'.$name;
 });
 
 Route::get('/suma/{n1}/{n2}', function ($n1, $n2) {
