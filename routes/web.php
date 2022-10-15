@@ -24,7 +24,7 @@ Route::get('/saludo/{name}', function ($name) {
 });
 
 Route::get('/suma/{n1}/{n2}', function ($n1, $n2) {
-    return "La suma es ".($n1+$n2);
+    return "La suma es igual a ".($n1+$n2);
 })->where(['n1' => '[0-9]+','n2' => '[0-9]+']);
 
 Route::get('/multi/{n1}/{n2}/{n3}', function ($n1, $n2,$n3) {
