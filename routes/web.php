@@ -28,5 +28,5 @@ Route::get('/suma/{n1}/{n2}', function ($n1, $n2) {
 })->where(['n1' => '[0-9]+','n2' => '[0-9]+']);
 
 Route::get('/multi/{n1}/{n2}/{n3}', function ($n1, $n2,$n3) {
-    return "La multiplicacion es ".($n1*$n2*$n3);
+    return "La multiplicacio n es ".($n1*$n2*$n3);
 })->where(['n1' => '[0-9]+','n2' => '[0-9]+','n3' => '[0-9]+']);
